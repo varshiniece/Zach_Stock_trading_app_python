@@ -1,3 +1,6 @@
-to activate python virtual env:    .\venv\Scripts\Activate.ps1
+Steps to activate python virtual env:
+set security policies:  Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+Then activate , .\venv\Scripts\Activate
+
 Requests library allows us to talk to API 
 f' string allows us to inject another string into a string 
