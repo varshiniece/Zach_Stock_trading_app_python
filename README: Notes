@@ -1,2 +1,3 @@
+to activate python virtual env:    .\venv\Scripts\Activate.ps1
 Requests library allows us to talk to API 
 f' string allows us to inject another string into a string 
