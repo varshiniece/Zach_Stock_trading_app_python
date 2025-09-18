@@ -2,5 +2,11 @@ Steps to activate python virtual env:
 set security policies:  Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 Then activate , .\venv\Scripts\Activate
 
+API= Application Programming Interface. 
+status code 
+200: response successful. 
+400: errors usually on user side 
+500: error on server side 
+
 Requests library allows us to talk to API 
 f' string allows us to inject another string into a string 
