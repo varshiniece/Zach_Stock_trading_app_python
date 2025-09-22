@@ -1,0 +1,12 @@
+Data Pipelines : Ability to have flow of information that can be translated into useful knowledge that business can make use of. 
+Data from different sources like meta, events from app, salesforce , hubspot , etc is stored in a centralized location. 
+File system in cloud where the data is stored is S3 (if on AWS cloud). 
+
+Cron - is based on computers clock. 
+epoch- amount of seconds /ms. Allows data pipelines to be scheduled or run automatically. 
+cron is fundamental technology behind pipeline tools like Airflow , Prefect , Dagster. (Runs pipeline on a schedule- like once a day) (Regularly scheduled pipelines) 
+Real time pipelines are different, they are not schedueled, they run all the time. More expensive, complicated. (Ex- Fraud detection) 
+Pipelines that run on demand. (on demand pipeline). ex- Pipelines that get triggered when a user signup. 
+
+
+
