@@ -8,6 +8,8 @@ cron is fundamental technology behind pipeline tools like Airflow , Prefect , Da
 Real time pipelines are different, they are not schedueled, they run all the time. More expensive, complicated. (Ex- Fraud detection) 
 Pipelines that run on demand. (on demand pipeline). ex- Pipelines that get triggered when a user signup. 
 
-Scheduling Pipelines 
-0 0 *** : @daily 
+Scheduling Pipelines /minute hour day month day 
+* * * * * : every minute 
+0 0 *** : @daily @ 12.30 midnight 
+
 
