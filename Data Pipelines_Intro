@@ -13,3 +13,6 @@ Scheduling Pipelines /minute hour day month day
 0 0 *** : @daily @ 12.30 midnight 
 
 
+Data modelling 
+Dimensional data modelling : Very useful technique 
+One big table model 
